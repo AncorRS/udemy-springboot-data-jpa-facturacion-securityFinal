@@ -28,7 +28,7 @@ public class MvcConfig implements WebMvcConfigurer {
 		
 	}*/
 	
-	//setViewName PARA CARGAR LA VISTA QUE QUEREMOS MOSTRAR
+	//setViewName PARA CARGAR LA VISTA QUE QUEREMOS MOSTRARr
 	//ESTO LO TENEMOS EN EL HTML error_403.html
 	public void addViewControllers(ViewControllerRegistry registry) {
 		registry.addViewController("/error_403").setViewName("error_403");
